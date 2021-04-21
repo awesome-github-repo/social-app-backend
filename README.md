@@ -18,6 +18,6 @@ This package is meant for sonata-social-app.
 
 - If you want instant messaging feature to work, you need a redis server. Edit live-query parts. If you dont want to run a redis server, you can delete the parts related to Live Query.
 
-- Once you do all this things, you need to disable all Class Level Permissions or every class, This is for data security. App will work without this setting but all the data inside database will be publicly accessible. You can set Class Level Permissions by using [Parse-Dashboard](https://github.com/parse-community/parse-dashboard "Parse-Dashboard")
+- Once you do all this things, you need to disable all Class Level Permissions for every class, This is for data security. App will work without this setting but all the data inside database will be publicly accessible. You can set Class Level Permissions by using [Parse-Dashboard](https://github.com/parse-community/parse-dashboard "Parse-Dashboard")
 
 You can tweak settings to increase server performance and scalibility. But they are not discussed here. For that, you can use official parse-server repo. Or Parse community forum.
