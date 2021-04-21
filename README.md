@@ -1,4 +1,4 @@
-### Backend Solution for [Sonata Social App](https://github.com/uzaysan/sonata-sociala-app "Sonata App") Based on [Parse Server](https://github.com/parse-community/parse-server "Parse Server")
+### Backend Solution for [Sonata Social App](https://github.com/uzaysan/sonata-social-app "Sonata App") Based on [Parse Server](https://github.com/parse-community/parse-server "Parse Server")
 
 This package is meant for sonata-social-app.
 
