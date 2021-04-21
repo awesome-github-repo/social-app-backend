@@ -7,6 +7,7 @@ This package is meant for sonata-social-app.
 - You have installed NodeJs (> 8) to your machine. But I recommend Node 12 or higher.
 
 **Things you have to do **
+
 - You need a firebase project in order to send push notifications.
 
 - You need to go to Firebase Console and then go to Project Settings. You need to create an admin.json file for Nodejs. Rename that file to `serviceAccountKey.json`. And copy that file to cloud folder.
