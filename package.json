@@ -1,0 +1,39 @@
+{
+  "name": "parse-server-example",
+  "version": "1.4.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/parse-server-example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "base64-img": "1.0.4",
+    "cld": "2.7.0",
+    "express": "~4.11.x",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "4.2.7",
+    "ffprobe": "1.1.0",
+    "ffprobe-static": "3.0.0",
+    "file-type": "14.4.0",
+    "firebase-admin": "8.12.1",
+    "fluent-ffmpeg": "2.1.2",
+    "fs": "0.0.1-security",
+    "image-size": "0.8.3",
+    "image-thumbnail": "1.0.8",
+    "instatouch": "^2.3.0",
+    "kerberos": "~0.0.x",
+    "parse": "2.18.0",
+    "parse-email-adapter": "0.0.1",
+    "parse-server": "4.5.0",
+    "scraper-instagram": "^1.0.14",
+    "tmp": "0.2.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
