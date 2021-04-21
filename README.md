@@ -2,11 +2,13 @@
 
 This package is meant for sonata-social-app.
 
-**Before you get started**
+ **Before you get started**
 - Make sure you have a running mongodb database
 - You have installed NodeJs (> 8) to your machine. But I recommend Node 12 or higher.
 
-**Things you have to do **
+
+ **Things you have to do **
+
 
 - You need a firebase project in order to send push notifications.
 
