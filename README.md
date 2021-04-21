@@ -21,6 +21,10 @@ This package is meant for sonata-social-app.
 You can tweak settings to increase server performance and scalibility. But they are not discussed here. For that, you can use official parse-server repo. Or Parse community forum.
 
 ## Step by step guide for Ubuntu 20.04
+### İnstall NodeJS
+- You have to install nodejs to your server.
+- You can follow this tutorial https://computingforgeeks.com/how-to-install-nodejs-on-ubuntu-debian-linux-mint/
+
 ### Install MongoDB database
 MongoDb installation commands are taken from [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 Run below commands one by one.
@@ -59,7 +63,7 @@ Now we will clone this repo:
 
 - `git clone https://github.com/uzaysan/social-app-backend.git`
 
-After this we will navigate to backend folder. Sİmply type 
+After this we will navigate to backend folder. Simply type 
 
 - `cd social-app-backend`
 
@@ -68,6 +72,8 @@ Now database uri is `mongodb://localhost:27017/DATABASE_NAME` where database nam
 And edit `appId` and `masterKey` you can set whatever you want. But you have to keep your masterKey secret. If anyone has your masterkey they can delete all data in database or even upload some junk data. or steal existing data.
 
 Now you will need 2 things to connect android app to this server. appId and serverAdress. appId is what you set previous step. Server adress is server ip. By default parse server listen port 1337 and listen on parse endpoint. So you server adress should be like this `http://IP_ADRESS:1337/parse` unless you changed this setings.
+
+Now we have to do 2 things. Firebase admin key and redis server. Firebase admin key is used for push notifications. Go to firebase console. Create new project. Go to project setting. Go to service accounts. Create a new admin sdk for nodejs. Rename that file to ,`serviceAccountKey.json` And copy that file to your cloud folder alongside with main.js in social-app-backend folder.
 
 There is only one step left. Which is setting up a redis server. I wont teach that here. Its not mandatory for apps functionality. Its only used for instant messaging. So ıf you want instant messaging feature, You should run a redis server. And paste connection uri to necessary places. If you dont, simply delete LiveQuery options from index.js. If you wanna install redis, you can use this tutorial 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04
